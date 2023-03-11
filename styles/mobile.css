@@ -46,6 +46,64 @@ section#login > div#imagem {
     background-size: cover;
     background-position: center top;
     height: 180px;
-    
-
 }
+div#formulario > h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+div#formulario > p {
+     font-size: 0.9em;
+     margin-bottom: 10px;
+     text-align: justify;
+}
+
+div.campo > label {
+    display: none;
+}
+
+div.campo{
+    background-color: #704c2e;
+    width: 90%;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 5px;
+    border: 1px solid #5a371a;
+    border-radius: 5px;
+}
+
+
+div#botao > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    margin-top: 8px;
+    background-color:  #704c2e;
+    border:1px solid  #704c2e;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+
+div#link{
+    display: block;
+    background-color: #df9f67c5;
+    text-align: center;
+    width:90%;
+    height: 40px;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 1em;
+    color: #47301c;
+    text-decoration: none;
+    border:1px solid #ae6424;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ div#link > a{
+    text-decoration: none;
+    color: #5a371a;
+ }
