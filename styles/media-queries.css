@@ -6,6 +6,7 @@
     }
     section#login {
         width: 90vw;
+        height: 320px;
     }
 
     section#login > div#imagem {
@@ -25,6 +26,7 @@
 
     section#login {
         width: 90vw;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -47,10 +49,11 @@
     }
     
 }
-@media screen and (min-width: 1200px)/*desktop*/{
+@media screen and (min-width: 1200px)/*telas grandes*/{
 
     section#login {
         width: 996px;
+        height: 350px;
     }
 
     section#login > div#imagem {
